@@ -35,19 +35,20 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <nav>
+          {/* <nav>
             <ul>
               <li><Link to="/public">public</Link></li>
               <li><Link to="/protected">protected</Link></li>
               <li><Link to="/login">login</Link></li>
             </ul>
-          </nav>
-          <div>
+          </nav> */}
+          {/* <div>
             {this.state.authed ? 'LOGGED IN' : 'LOGGED OUT'}
             <button onClick={this.unauthenticate}>logout</button>
-          </div>
+          </div> */}
+          <Route path="/" exact render={(props) => <Login {...props} authenticate={this.authenticate} authed={this.state.authed} />} />
           <Route path="/public" exact component={Public} />
-          <Route path="/login" render={(props) => <Login {...props} authenticate={this.authenticate} />} />
+          <Route path="/login" render={(props) => <Login {...props} authenticate={this.authenticate} authed={this.state.authed} />} />
           <PrivateRoute path='/protected' authed={this.state.authed} component={Protected} />
         </div>
       </Router>
