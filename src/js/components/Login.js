@@ -25,7 +25,7 @@ class Login extends React.Component {
                     <input type="string" id="username" placeholder="Username" />
                   </div>
                   <div className="input">
-                    <input type="string" id="password" placeholder="Password" />
+                    <input type="password" id="password" placeholder="Password" />
                   </div>
                 </fieldset>
               </form>
