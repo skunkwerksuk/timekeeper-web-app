@@ -56,19 +56,20 @@ module.exports = {
         ]
       },
       {
-        test: /\.(jpg|png|svg)$/,
+        test: /\.(png|jpg|jpeg|gif|svg)$/,
         loader: 'url-loader',
         options: {
-          limit: 25000,
+          limit: 250000,
+          fallback: 'file-loader'
         },
       },
-      {
-          test: /\.(jpg|png|svg)$/,
-          loader: 'file-loader',
-          options: {
-            name: '[path][name].[hash].[ext]',
-          },
-      },
+      // {
+      //   test: /\.(jpg|png|svg)$/,
+      //   loader: 'file-loader',
+      //   options: {
+      //     name: '[path][name].[hash].[ext]',
+      //   },
+      // },
     ]
   },
   resolve: {
