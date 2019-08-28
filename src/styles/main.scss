@@ -1,11 +1,12 @@
 @import './_reset.scss';
+@import './_variables.scss';
 @import './_grid.scss';
 @import './_login.scss';
 @import './_navbar.scss';
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #43425D;
+  color: $primary-purple;
 }
 
 h1 {

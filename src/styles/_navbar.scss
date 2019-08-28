@@ -1,11 +1,11 @@
 .navbar {
-  background-color: #43425D;
+  background-color: $primary-purple;
   color: white;
   height: 100%;
   overflow: auto;
   
   .nav-title {
-    background-color: #3c3b53;
+    background-color: $primary-purple-light;
     font-size: 21px;
     font-weight: bold;
     padding: 20px;
@@ -17,7 +17,7 @@
 
     .nav-link {
       text-decoration: none;
-      color: white;
+      color: $white-text;
       padding: 18px;
     }
   }
