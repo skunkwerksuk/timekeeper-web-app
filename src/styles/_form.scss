@@ -1,0 +1,38 @@
+.input {
+  width: 100%;
+  margin: 40px 0;
+  position: relative;
+  text-align: left;
+
+  label {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 6px;
+    pointer-events: none;
+  }
+
+  input {
+    width: 100%;
+    display: block;
+    border: 0;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    padding: 5px;
+    font-family: Helvetica, sans-serif;
+    &:focus + label {
+      opacity: 0.3;
+    }
+
+    &:focus::placeholder {
+      opacity: 0.3;
+    }
+
+    &::placeholder {
+      color: $primary-purple;
+      opacity: 1;
+    }
+  }
+
+}

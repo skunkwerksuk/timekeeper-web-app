@@ -22,17 +22,14 @@ class Login extends React.Component {
               <form>
                 <fieldset>
                   <div className="input">
-                    <label for="username">Username</label>
-                    <input type="string" id="username" />
+                    <input type="string" id="username" placeholder="Username" />
                   </div>
-                  <div>
-                    <label for="password">Password</label>
-                    <input type="string" id="password" />
+                  <div className="input">
+                    <input type="string" id="password" placeholder="Password" />
                   </div>
                 </fieldset>
               </form>
-              {/* <Link onClick={this.props.authenticate} to="/protected">protected</Link> */}
-              <button onClick={this.props.authenticate}>
+              <button onClick={this.props.authenticate} className="button--primary full-width">
                 Login
               </button>
             </div>
