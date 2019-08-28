@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #43425D;
+  color: white;
+  height: 100%;
+  overflow: auto;
+  
+  .nav-title {
+    background-color: #3c3b53;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 4.2px;
+  }
+
+  .nav-list {
+    list-style: none;
+
+    .nav-link {
+      text-decoration: none;
+      color: white;
+      padding: 18px;
+    }
+  }
+}

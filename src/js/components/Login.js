@@ -5,9 +5,9 @@ import timeImage from '../../images/time-management-clock.jpg';
 
 class Login extends React.Component {
   render() {
-    if(this.props.authed) {
+    if (this.props.authed) {
       return (
-        <Redirect to='/protected' />
+        <Redirect to='/dashboard' />
       );
     } else {
       return (

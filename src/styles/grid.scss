@@ -1,7 +1,19 @@
 .row {
   width: 100%;
-}
-.one-half {
-  width: 50%;
-  display: inline-block;
+  .nav-width {
+    width:260px;
+    height: 100%;
+    position: fixed;
+  }
+  .nav-body {
+    margin-left: 260px;
+  }
+  .one-half {
+    width: 50%;
+    display: inline-block;
+  }
+  .one-third {
+    width: 33%;
+    display: inline-block;
+  }
 }
