@@ -27,14 +27,15 @@ body {
 }
 
 .button {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 300;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
   &--primary {
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 300;
-    border: 0;
-    background-color: $primary-purple;
+    background-color: $primary-purple-light;
     color: $white-text;
-    border-radius: 4px;
-    padding: 10px;
   }
 }

@@ -22,7 +22,6 @@
 
   .panel {
     background-color: $white;
-    // height: 220px;
     box-shadow: 0px 2px 10px #d6d6d6;
     padding: 20px;
     box-sizing: border-box;
@@ -30,6 +29,7 @@
     .title {
       font-size: 24px;
       color: $primary-purple;
+      margin-bottom: 20px;
     }
 
     &--two-height {

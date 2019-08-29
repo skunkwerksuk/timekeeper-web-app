@@ -29,7 +29,7 @@ class Login extends React.Component {
                   </div>
                 </fieldset>
               </form>
-              <button onClick={this.props.authenticate} className="button--primary full-width">
+              <button onClick={this.props.authenticate} className="button button--primary full-width">
                 Login
               </button>
             </div>

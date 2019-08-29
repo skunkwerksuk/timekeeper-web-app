@@ -6,6 +6,12 @@ class Dashboard extends React.Component {
       <div className="grid-three-cols">
         <div className="panel">
           <h2 className="title">What would you like to do today?</h2>
+          <button className="button button--primary full-width">
+            Tell us you aren’t feeling well 🤕
+          </button>
+          <button className="button button--primary full-width">
+            Ask us for a vacation ✈️
+          </button>
         </div>
         <div className="panel">
           <h2 className="title">Upcoming Vacation</h2>
