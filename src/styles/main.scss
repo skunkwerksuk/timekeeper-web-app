@@ -3,11 +3,16 @@
 @import './_grid.scss';
 @import './_login.scss';
 @import './_navbar.scss';
+@import './_infobar.scss';
 @import './form.scss';
 
 body {
   font-family: Helvetica, sans-serif;
   color: $primary-purple;
+}
+
+.content {
+  background-color: #F0F0F7;
 }
 
 .main-title {
@@ -22,9 +27,8 @@ body {
 }
 
 .button {
-  border: 0;
-  
   &--primary {
+    cursor: pointer;
     font-size: 18px;
     font-weight: 300;
     border: 0;

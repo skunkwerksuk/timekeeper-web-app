@@ -1,0 +1,19 @@
+.info-bar {
+  grid-column-start: 2;
+  grid-column-end: last-line;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  box-shadow: 0px 2px 6px #000000;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: end;
+
+  .user-info {
+    padding: 28px 20px;
+  }
+
+  .notifications {
+    padding: 28px 20px;
+  }
+}

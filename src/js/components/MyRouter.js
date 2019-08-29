@@ -16,7 +16,7 @@ class MyRouter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      authed: false
+      authed: true
     }
   }
   authenticate = () => {

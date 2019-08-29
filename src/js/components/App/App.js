@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import Navbar from './Navbar';
+import InfoBar from './InfoBar';
 import Dashboard from './Dashboard';
 import Calendar from './Calendar';
 import Employees from './Employees';
@@ -24,13 +25,12 @@ class App extends React.Component {
   render () {
     return (
       <Router basename="/">
-        <div className="row">
-          <div className="nav-width">
-            <Navbar />
-          </div>
-          <div className="nav-body">
+        <div className="app">
+          <Navbar />
+          <InfoBar />
+          <div className="content">
             <Switch>
-              <Route path="/dashboard" component={Dashboard} />
+              <Route path="/dashboard"   component={Dashboard} />
               <Route path="/calendar" component={Calendar} />
               <Route path="/employees" component={Employees} />
               <Route path="/help" component={HelpCenter} />

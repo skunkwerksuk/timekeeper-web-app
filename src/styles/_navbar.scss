@@ -3,6 +3,10 @@
   color: white;
   height: 100%;
   overflow: auto;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: last-line;
   
   .nav-title {
     background-color: $primary-purple-light;
@@ -16,9 +20,14 @@
     list-style: none;
 
     .nav-link {
+      display: block;
       text-decoration: none;
       color: $white-text;
       padding: 18px;
+
+      &:hover {
+        background-color: $primary-purple;
+      }
     }
   }
 }
