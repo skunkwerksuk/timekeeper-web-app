@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/skunkwerksuk/timekeeper-web-app.svg?style=svg)](https://circleci.com/gh/skunkwerksuk/timekeeper-web-app)
 ## Timekeeper Web App
 
 A web application for consuming and representing the timekeeper family of APIs.
